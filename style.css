@@ -1,0 +1,100 @@
+body{
+    font-family: Roboto, serif;
+    font-size:18px;
+    display:flex;
+    flex-direction:column;
+}
+
+.header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.content{
+    display:flex;
+    flex-direction:row;
+}
+.info-section{
+    display:flex;
+    flex-direction:column;
+}
+.info{
+    display:flex;
+    flex-direction:row;
+}
+.quote-section{
+    display:flex;
+    flex-direction:column;
+}
+.cta-box{
+    display:flex;
+    flex-direction:row;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.top-section, 
+.footer{
+    background-color: #1F2937;
+}
+
+.top-section h1, 
+.top-section h2{
+    color: #F9FAF8;
+}
+
+.top-section h1{
+    font-size: 24px;
+}
+
+.top-section h2{
+    font-size:48px;
+    font-weight: 900;
+}
+
+.top-section, 
+.top-section a{
+    color:#E5E7EB;
+}
+
+button, 
+.cta-box{
+    background-color: #3882F6;
+}
+
+.sub-heading h2{
+    font-size:36px;
+    color: #1F2937;
+    font-weight:900;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+}
+.quote-section
+.quote{
+    font-size:36px;
+    color: #1F2937;
+    font-style: italic;
+    font-family: 'light italic';
+}
+.author, 
+.cta-box h3{
+    font-weight: bold;
+    font-size:21px;
+}
+
+button{
+    border-radius:10px;
+    padding:5px 10px;
+    border:none;
+}
+.cta-box button{
+    border: #E5E7EB;
+}
